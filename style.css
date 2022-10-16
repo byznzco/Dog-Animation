@@ -1,0 +1,27 @@
+#canvas1{
+    /* border:5px solid black; */
+    position:absolute;
+    
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
+.controls{
+    position: absolute;
+    z-index:10;
+    top:10px;
+    left: 25%;
+    transform: translateX(-50%);
+}
+.speed{
+    position: absolute;
+    z-index:10;
+    top:10px;
+    left: 60%;
+    transform: translateX(-40%);
+}
+.controls, select, option, .speed{
+    font-size: 20px;
+}
